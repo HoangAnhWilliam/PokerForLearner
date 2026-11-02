@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-felt-950: #06140f;
+  --color-felt-900: #0b2219;
+  --color-felt-800: #113226;
+  --color-felt-700: #184633;
+  --color-felt-600: #1f5c42;
+  --color-chip: #e9b949;
+  --font-display: 'Georgia', 'Times New Roman', serif;
+}
+
+html {
+  background-color: var(--color-felt-950);
+}
+
+body {
+  background: radial-gradient(ellipse 120% 60% at top, var(--color-felt-800), var(--color-felt-950) 70%) no-repeat;
+  color: #e8efe9;
+  min-height: 100vh;
+}
+
+kbd {
+  font-family: ui-monospace, monospace;
+  font-size: 0.75em;
+  padding: 0.05rem 0.35rem;
+  border-radius: 0.25rem;
+  border: 1px solid rgb(255 255 255 / 0.2);
+  background: rgb(0 0 0 / 0.3);
+}

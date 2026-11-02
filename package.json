@@ -1,0 +1,15 @@
+{
+  "name": "poker-trainer",
+  "private": true,
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "test": "npm run test -w @poker/engine",
+    "typecheck": "npm run typecheck -w @poker/engine",
+    "dev": "npm run dev -w @poker/web",
+    "build": "npm run build -w @poker/web"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
